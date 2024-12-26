@@ -4,7 +4,7 @@ function range(start, end) {
   let result = [];
   
   // Use a for loop to iterate from start to end (inclusive)
-  for (let i = start; i <= end; i++) {
+  for (let i = start+1; i < end; i++) { 
     result.push(i); // Add each integer to the result array
   }
   
